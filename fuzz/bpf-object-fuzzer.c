@@ -1,4 +1,4 @@
-#include "libbpf.h"
+#include "bpf/libbpf.h"
 
 static int libbpf_print_fn(enum libbpf_print_level level, const char *format, va_list args)
 {
